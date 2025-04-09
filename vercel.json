@@ -1,10 +1,13 @@
 {
   "functions": {
     "api/resize.py": {
-      "runtime": "python3.9"
+      "runtime": "@vercel/python@1.2.0"
     }
   },
   "routes": [
-    { "src": "/(.*)", "dest": "/api/resize.py" }
+    {
+      "src": "/(.*)",
+      "dest": "/api/resize.py"
+    }
   ]
 }
