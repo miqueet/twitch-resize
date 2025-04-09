@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import io
 from flask import Flask, request, send_file, abort, render_template_string
 from PIL import Image
