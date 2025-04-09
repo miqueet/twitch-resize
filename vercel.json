@@ -1,0 +1,10 @@
+{
+  "functions": {
+    "api/resize.py": {
+      "runtime": "python3.9"
+    }
+  },
+  "routes": [
+    { "src": "/(.*)", "dest": "/api/resize.py" }
+  ]
+}
